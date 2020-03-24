@@ -1,0 +1,394 @@
+.nice-select {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #e8e8e8;
+  box-sizing: border-box;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  height: 42px;
+  line-height: 40px;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 30px;
+  position: relative;
+  text-align: left !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  white-space: nowrap;
+  width: auto; }
+  .nice-select:hover {
+    border-color: #dbdbdb; }
+  .nice-select:active, .nice-select.open, .nice-select:focus {
+    border-color: #999; }
+  .nice-select:after {
+    border-bottom: 2px solid #999;
+    border-right: 2px solid #999;
+    content: '';
+    display: block;
+    height: 5px;
+    margin-top: -4px;
+    pointer-events: none;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    -webkit-transform-origin: 66% 66%;
+        -ms-transform-origin: 66% 66%;
+            transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 5px; }
+  .nice-select.open:after {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
+  .nice-select.open .list {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: scale(1) translateY(0);
+        -ms-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0); }
+  .nice-select.disabled {
+    border-color: #ededed;
+    color: #999;
+    pointer-events: none; }
+    .nice-select.disabled:after {
+      border-color: #cccccc; }
+  .nice-select.wide {
+    width: 100%; }
+    .nice-select.wide .list {
+      left: 0 !important;
+      right: 0 !important; }
+  .nice-select.right {
+    float: right; }
+    .nice-select.right .list {
+      left: auto;
+      right: 0; }
+  .nice-select.small {
+    font-size: 12px;
+    height: 36px;
+    line-height: 34px; }
+    .nice-select.small:after {
+      height: 4px;
+      width: 4px; }
+    .nice-select.small .option {
+      line-height: 34px;
+      min-height: 34px; }
+  .nice-select .list {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+    box-sizing: border-box;
+    margin-top: 4px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    -webkit-transform-origin: 50% 0;
+        -ms-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+    -webkit-transform: scale(0.75) translateY(-21px);
+        -ms-transform: scale(0.75) translateY(-21px);
+            transform: scale(0.75) translateY(-21px);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    z-index: 9; }
+    .nice-select .list:hover .option:not(:hover) {
+      background-color: transparent !important; }
+  .nice-select .option {
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 40px;
+    list-style: none;
+    min-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 29px;
+    text-align: left;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; }
+    .nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+      background-color: #f6f6f6; }
+    .nice-select .option.selected {
+      font-weight: bold; }
+    .nice-select .option.disabled {
+      background-color: transparent;
+      color: #999;
+      cursor: default; }
+
+.no-csspointerevents .nice-select .list {
+  display: none; }
+
+.no-csspointerevents .nice-select.open .list {
+  display: block; }
+
+.w-80px{
+  width: 80px!important;
+}
+.w-200px{
+  width: 200px!important;
+}
+h2, h1{
+  margin-bottom: 0!important;
+}
+.best-pricing.pricing-padding {
+  padding-bottom: 150px!important;
+}
+
+.hightMenu {
+  position: absolute;
+  bottom: 0px;
+  border-bottom: 2px solid #b3d0e4;
+  width: 100%;
+  font-variant-caps: all-petite-caps;
+}
+.imgCenter {
+  position: relative;
+  margin-top: 61px;
+}
+.pr-15{
+  right: -15px;
+  position: relative;
+}
+.messageUp {
+  position: fixed;
+  top: 10px;
+  right: 25px;
+  color: white;
+  background-color: #007bffd6;
+  border-radius: 10px;
+  padding: 15px 20px 0 20px;
+  font-size: 1rem;
+  display: none;
+}
+.numArround {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 15px;
+}
+.bgx-blue-0{
+  background-color: #363f4e;
+}
+.bgx-blue-1{
+  background-color: #4c5973;
+}
+.bgx-blue-2{
+  background-color: #5c9cf4;
+}
+.bgx-blue-3{
+  background-color: #385577;
+}
+.bgx-blue-4{
+  background-color: #4981dc;
+}
+.numberList {
+  position: relative;
+  left: 15px;
+  top: 8px;
+  color: white;
+  font-style: unset;
+  font-weight: bold;
+}
+.textNumberList {
+  position: relative;
+  left: 50px;
+}
+.fs-05 {
+  width: 100%;
+  position: initial;
+  right: initial;
+  font-size: .9rem;
+  display: table;
+}
+.pxtMenu{
+  position: fixed;
+  display: contents;
+}
+.takeTaxi {
+  text-align: -webkit-right;
+  font-weight: bold;
+  font-size: 6rem;
+}
+.textNumberOwner{
+  background-color: #4d91ff;
+  color: white;
+  width: 2rem;
+  position: absolute;
+  padding-top: .4rem;
+  height: 2rem;
+  top: 10px;
+  left: -5px;
+  text-align: -webkit-center;
+  border-radius: 50%;
+  font-weight: bolder;
+}
+.descriptionOwner{
+  background: #4e8ffa;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  top: 27px;
+  padding: 15px;
+
+}
+.pt-abs {
+  top: -40px;
+}
+.call {
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+}
+.buttonCallBack {
+  background-color: red;
+  width: max-content;
+  height: min-content;
+  position: relative;
+  float: right;
+  right: 15px;
+  bottom: 10px;
+  color: white;
+  border-radius: 20px;
+}
+.close {
+  position: absolute;
+  right: 20px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+  }
+  .close:hover {
+  opacity: 1;
+  cursor: pointer;
+  }
+  .close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+  }
+  .close:before {
+  transform: rotate(45deg);
+  }
+  .close:after {
+  transform: rotate(-45deg);
+  }
+.bgDark {
+  width: 100%;
+  height: 100%;
+  background-color: #0000009e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 9;
+}
+.modalWin {
+  width: 20rem;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: white;
+  float: right;
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+}
+.sendBtn {
+  width: 10rem;
+  height: min-content;
+  text-align: center;
+  background-color: yellow;
+  margin-top: 15px;
+}
+.text-grey {
+  padding-top: 15px;
+  padding-right: 30px;
+  font-size: .8rem;
+  color: grey;
+}
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+label.custom-control-label.err {
+  padding-right: 40px;
+  font-size: .9rem;
+}
+.closeWin {
+  position: relative;
+  float: right;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.aboutSelfData {
+  position: relative;
+  margin-top: 25px;
+}
+.matInput {
+  padding: 10px 20px 5px 0;
+  margin: 15px;
+  font-size: 1rem;
+  border: 0;
+  border-bottom: 1px solid #9c9c9c;
+}
+.custom-control.custom-radio {
+  margin: 10px;
+}
+form#data {
+  text-align: -webkit-left;
+  position: relative;
+  left: 40px;
+}
+.buttonCallBack {
+  float: left;
+  left: 2rem;
+}
+.newBtnCall {
+  width: 90%;
+  position: relative;
+  top: 2.8rem;
+  border-radius: 50px;
+  line-height: 1rem;
+  font-size: 1.5rem;
+}
+.borderMain {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #6b67f1;
+    padding: 30px 0 0 5px;
+    margin: 26px 0;
+}
+.btnBlack {
+  background-color: #0e0e0c!important;
+}
+.btnGrey {
+  background-color: #272535!important;
+}
+@media (max-width: 600px) {
+  .fr{
+      text-align: right;
+      padding: 0!important;
+  }
+}
