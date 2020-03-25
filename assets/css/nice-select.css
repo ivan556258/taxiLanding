@@ -386,9 +386,35 @@ form#data {
 .btnGrey {
   background-color: #272535!important;
 }
+.colorTaxi{
+  color:#7b6fee;
+  font-weight: 700;
+}
+.colorDriver{
+  color: #5b4ed4;
+  font-weight: 700;
+}
+.upMainText{
+  position: relative;
+  top: -115px;
+}
 @media (max-width: 600px) {
   .fr{
       text-align: right;
       padding: 0!important;
+  }
+  .best-pricing.pricing-padding {
+    padding-bottom: 5px!important;
+    padding-top: 35px!important;
+  }
+  .newBtnCall {
+    width: 80%;
+    margin-top: 2.8rem!important;
+    margin-bottom: 3rem!important;
+    border-radius: 50px;
+    top: 0;
+  }
+  .upMainText{
+    top: 0;
   }
 }
