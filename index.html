@@ -8,7 +8,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@600&family=Poiret+One&family=Press+Start+2P&display=swap" rel="stylesheet">
 
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -22,6 +23,7 @@
             <link rel="stylesheet" href="assets/css/slick.css">
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="assets/css/custom.css">
    </head>
 
    <body>
@@ -48,7 +50,9 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2 col-md-2">
                             <div class="logo">
-                                <a href="#"><img class="img-fluid p-1 w-80px" src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="#">
+                                    <img class="img-fluid p-1 w-80px" src="assets/img/logo/logo.png" alt="">
+                                </a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-10">
@@ -184,7 +188,9 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="single-features mb-70">
                                     <div class="features-icon">
-                                        <span class="flaticon-support"></span>
+                                        <div class="newFullIcon">
+                                            <i class="fas fa-people-arrows"></i>
+                                        </div>
                                     </div>
                                     <div class="features-caption">
                                         <h3>Отдел кадров</h3>
@@ -195,7 +201,9 @@
                              <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="single-features mb-70">
                                     <div class="features-icon">
-                                        <span class="flaticon-support"></span>
+                                        <div class="newFullIcon">
+                                            <i class="fas fa-user-cog"></i>
+                                        </div>
                                     </div>
                                     <div class="features-caption">
                                         <h3>Механик</h3>
@@ -206,7 +214,9 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="single-features mb-70">
                                     <div class="features-icon">
-                                        <span class="flaticon-support"></span>
+                                        <div class="newFullIcon">
+                                            <i class="fas fa-user"></i>
+                                        </div>
                                     </div>
                                     <div class="features-caption">
                                         <h3>Начальник колонны</h3>
@@ -217,7 +227,9 @@
                              <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="single-features mb-70">
                                     <div class="features-icon">
-                                        <span class="flaticon-support"></span>
+                                        <div class="newFullIcon">
+                                            <i class="fas fa-hotel"></i>
+                                        </div>
                                     </div>
                                     <div class="features-caption">
                                         <h3>Аренда офиса - </h3>
@@ -315,7 +327,7 @@
                             </div>
                             <div class="feature-content">
                                 <h4 class="feature-title">300 000 Р экономия</h4>
-                                <p>Отсутствие расходов на рекламу и персонал  ежемесячно
+                                <p class="pw25">Отсутствие расходов на рекламу и персонал  ежемесячно
                                 </p>
                             </div>
                         </div>
@@ -326,7 +338,7 @@
                             <div class="feature-content">
                                 <h4 class="feature-title">24/7
                                 </h4>
-                                <p>
+                                <p class="pw25">
                                     Отслеживание скоростного
                                     режима, осмотр  
                                     службой механиков
@@ -382,14 +394,15 @@
                     <!-- slider Heading -->
                     <div class="col-xl-4 col-lg-4 col-md-8">
                         <div class="single-cases-info mb-30">
-                            <h3>Вы можете спокойно заниматься Вашим заработком, все остальное мы берем на себя!</h3>
-                            <p>Гарантируем: оплату аренды и загруженность автомобиля, погашение всех штрафов ПДД.
-
-                                Вы можете зарабатывать от 42.000 рублей в месяц с одного автомобиля.
-                                
-                                Для таксопарков работа с нами - прекрасная возможность расширить клиентскую базу и сократить время простоев.
-                                
-                               </p>
+                            <h3>Как будет ?</h3>
+                            <p>
+                                Вы можете спокойно заниматься Вашим
+                                заработком, все остальное мы ерем на себя!
+                                Гарантируем: оплату аренды всех штрафов ПДД. Вы можете
+                                зарабатывать от 42 000 рублей в месяц с одного автомобиля.
+                                Для таксопарков работа с нами - прекрасная возможность расширить
+                                клиентскую базу и сократить время простоев.
+                            </p>
                         </div>
                     </div>
                     <!-- OwL -->
@@ -438,66 +451,6 @@
                 </div>
             </div>
         </section>
-        <!-- Best Pricing End -->
-        <!-- Pricing Card Start -->
-<!--         <div class="pricing-card-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-card text-center mb-30">
-                            <div class="card-top">
-                                <span>Мылый</span>
-                                <h4>100 <span>/ месяц</span></h4>
-                            </div>
-                            <div class="card-bottom">
-                                <ul>
-                                    <li>Скидки наших парнёров до 30%</li>
-                                    <li>E-mail поддержка</li>
-                                    <li>10 автомобилий</li>
-                                    <li>24/7 поддержка</li>
-                                </ul>
-                                <a href="#" class="btn card-btn1">Выбрать</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-card  text-center mb-30">
-                            <div class="card-top">
-                                <span>Средний</span>
-                                <h4>150 <span>/ месяц</span></h4>
-                            </div>
-                            <div class="card-bottom">
-                                <ul>
-                                    <li>Скидки наших парнёров до 40%</li>
-                                    <li>E-mail поддержка</li>
-                                    <li>50 автомобилий</li>
-                                    <li>24/7 поддержка</li>
-                                </ul>
-                                <a href="#" class="btn card-btn1">Выбрать</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-card text-center mb-30">
-                            <div class="card-top">
-                                <span>Большой</span>
-                                <h4>200 <span>/ месяц</span></h4>
-                            </div>
-                            <div class="card-bottom">
-                                <ul>
-                                    <li>Скидки наших парнёров до 50%</li>
-                                    <li>E-mail поддержка</li>
-                                    <li>100 автомобилий</li>
-                                    <li>24/7 поддержка</li>
-                                </ul>
-                                <a href="#" class="btn card-btn1">Выбрать</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Pricing Card End -->
         <!-- Our Customer Start -->
         <div class="our-customer section-padd-top30">
             <div class="container-fluid">
@@ -519,8 +472,7 @@
                                     </div>
                                     <div class="what-cap">
                                         <h4><a href="#">Ангелина Желтова</a></h4>
-                                        <p>Данная платформа идеально подошла под наш формат. Система интуитивно понятна для работников и легка в настройке для администрации.
-                                Самая удобная функция - тесная обратная связь с разработчиком.</p>
+                                        <p>Данная платформа идеально подошла под наш формат.</p>
                                     </div>
                                 </div>
                             
@@ -530,7 +482,7 @@
                                     </div>
                                     <div class="what-cap">
                                         <h4><a href="#">Станислав Якорюк</a></h4>
-                                        <p>Вообще я начинал работать таксистом в другом таксопарке, и получал копейки,, а это очень обидно когда работаешь на износ… Перешел в такси от АвтоДром. Сразу в первый же день забрал машину, Милые и приветливые девушки рассказали в какое время выходить на линию, какие районы лучше для работы Когда устаю сидеть за рулем делаю себе выходной, когда хочу и не плачу за это. Аренда не дорогая. Работа не в напряг, и деньги имеются каждый день!!! Компанию рекомендую, адекватные начальники колон..</p>
+                                        <p>Вообще я начинал работать таксистом в другом таксопарке, и получал копейки,, а это очень. </p>
                                     </div>
                                 </div>
                             
@@ -541,19 +493,8 @@
                                     <div class="what-cap">
                                         <h4><a href="#">Яков Безенчуков</a></h4>
                                         <p>Здравствуйте.
-ПАРК МАШИН:
-Если Вам нужна хорошая машина комфорт-класса, Вам сюда. В наличии куча различных авто, всегда чистые и с полным баком. Никаких заморочек по времени. Заплатил, забрал готовое авто. я работаю днем, мне Не надо искать стоянку на ночь. Вернул на место и спишь себе спокойно.
-Кузов и ходовая любой машины - блеск. 
-Машины недавно закуплены – в хорошем состоянии. 
-
-СЕРВИС:
-Я не знаю где у них находятся сервисы. Любой вопрос они решают сами. Это единственный таксопарк где мне не приходится кататься по вопросам ТО.
-ОПЛАТА АРЕНДЫ:
-Все настроено и работает само. Я привязал карту и периодически проверяю. Не думал что в России может что-то нормально работать, но ребята пока справляются.
-АГРЕГАТОРЫ:
-Свое приложение. Кстати, техподдержка реагирует быстро, еще ни разу не оставили без связи.
-ПЕРСОНАЛ:
-Неадекватных быстро отсеивают, все ребята с кем контачу нормальные, помогаем всегда друг другу. 
+ Вам сюда. В наличии куча различных авто, всегда чистые и с полным баком. 
+ 
 </p>
                                     </div>
                                 </div>
@@ -564,7 +505,8 @@
                                     </div>
                                     <div class="what-cap">
                                         <h4><a href="#">Александр Рожков</a></h4>
-                                        <p>Последнее время не везло с водителями, все больше мужиков лезли в стакан. Машины простаивали, трат вникуда было немеряно. Думал свернуть лавочку, еще и конкуренция не дает поднять голову... Потом нашел этих ребят, терять было уже нечего думаю рискну. Ну что сказать, разогнал к чертям всех бумагомарателей, они столько денег "сжирали"! Забыл про вечные проволочки от сервисов ТО. Ребята конечно не так давно работают, но сейчас все у них работает хорошо. Посмотрим как дальше будут. С уважением, Александр Рожков</p>
+                                        <p>Последнее время не везло с водителями, все больше мужиков лезли в стакан. 
+                                            </p>
                                     </div>
                                 </div>
                             
@@ -721,7 +663,7 @@
     <p class="textSuccess">Сообщение отправлено</p>
 </div>
 <div class="call">
-    <button type="button" class="btn buttonCallBack">Заказать звонок</button>
+    <button type="button" id="showScroll" class="btn buttonCallBack disp-blick">Заказать звонок</button>
 </div>
 <div class="bgDark">
     <div class="modalWin">
@@ -805,6 +747,7 @@
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+        <script src="https://kit.fontawesome.com/56b983bd06.js" crossorigin="anonymous"></script>
         <script>
 
 
@@ -854,6 +797,17 @@
               });
             
             });
+
+
+window.addEventListener('scroll', function() {
+    if (parseInt(pageYOffset) >= 400) {
+        $("#showScroll").show(150)
+    } else {
+        $("#showScroll").hide(150)
+    }
+
+
+});
             </script>  
     </body>
 </html>
