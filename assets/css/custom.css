@@ -18,6 +18,9 @@ p {
     position: relative;
     border-bottom: 1px solid #aa5dca;
 }
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #fffeff !important;
+}
 .footer-area .footer-tittle ul li a {
     color: #ffffff;
     font-weight: 300;
@@ -44,7 +47,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sticky-bar {
     -webkit-box-shadow: 0 10px 15px rgba(25,25,25,0.1);
-    background: #1c1d1d;
+    background: #712dbb;
+    border-bottom: 1px solid #8133d6;
 }
 body {
     background:-webkit-gradient(linear, left top, left bottom, from(#7a66ec), to(#ef5995)) fixed
@@ -81,7 +85,44 @@ body {
     box-shadow: 0 0 0 rgba(204,169,44, 0.4);
     display: none;
 }
-
+.btnGrey {
+    background-color: #f7ef01!important;
+}
+.btnBlack {
+    background-color: #30ef00!important;
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #f6ef3c;
+}
+.aboutSelfData {
+    position: relative;
+    margin-top: 25px;
+    color: black;
+}
+.slicknav_nav {
+    background: #7e64e9;
+    float: right;
+    margin-top: 11px;
+    padding: 19px;
+    width: 100%;
+    /* color: white; */
+    border-bottom: 1px solid #7e64e9;
+}
+.slicknav_nav a {
+    color: #fff;
+}
+.text-black {
+    color: #000;
+}
+.available-app-area, .best-pricing::before {
+    background-image: none
+}
 @-webkit-keyframes pulse {
     0% {
       -webkit-box-shadow: 0 0 0 0 rgb(255, 203, 54);
@@ -105,5 +146,62 @@ body {
     100% {
         -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
         box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+@media (max-width: 767px){
+    .slider-height {
+        min-height: min-content;
+        position: relative;
+        margin-top: 100px;
+    }
+    .section-padding, .section-padding2, .available-app-area {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .section-tittle h2 {
+        margin-bottom: 0;
+    }
+    .pb-90 {
+        padding-bottom: 0;
+    }
+    .pt-90 {
+        padding-top: 75px;
+    }
+    .slider-area .hero__caption p {
+        margin-bottom: 54px;
+        padding-right: 0px;
+        margin-top: 30px;
+    }
+    .my-30{
+        margin: 30px 0;
+    }
+    .feature-icon {
+        border: 1px solid #ffffff00;
+        color: #ffffff;
+    }
+    .feature-icon {
+        font-size: 2.5rem;
+        width: 70px;
+        height: 125px;
+        border: none;
+        line-height: 68px;
+        text-align: center;
+        color: white;
+        margin-right: 30px;
+        float: left;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+}
+@media (max-width: 600px) {
+    .pw25 {
+        width: auto;
+    }
+    .newBtnCall {
+        width: 80%;
+        /* margin-top: 2.8rem!important; */
+        /* margin-bottom: 3rem!important; */
+        border-radius: 50px;
+        top: -30px;
     }
 }
