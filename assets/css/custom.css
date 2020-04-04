@@ -6,9 +6,29 @@
 .section-tittle h2 {
     margin-bottom: 45px;
 }
+.main-header .main-menu ul li>a {
+    color: #8a897c;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nunito",sans-serif;
+    color: #ffffff;
+}
+.best-features-area .single-features .features-caption h3, .applic-apps .single-cases-info h3,
+.say-something-aera .say-something-cap h2, .footer-area .footer-tittle h4 {
+    color: #ffffff;
+}
+.footer-area .footer-form form input {
+    border: 1px solid #1f2425;
+    background: #0a0c0c;
+}
+.sticky-bar {
+    -webkit-box-shadow: 0 10px 15px rgba(25,25,25,0.1);
+    background: #1c1d1d;
+}
 body {
-    /* background: #f4feff; */
+    background:#1f2425;
     background-image: url('../img/elements/banner-bg-1-1.png');
+    background-size: cover;
 }
 .sky-blue {
     background: none;
