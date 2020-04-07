@@ -123,6 +123,15 @@ body {
 .available-app-area, .best-pricing::before {
     background-image: none
 }
+.section-padd4, .section-padding, .section-padding2,
+.section-padd-top30, .available-app-area, .footer-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.footer-padding, .best-pricing.pricing-padding {
+    padding-top: 40px;
+    padding-bottom: 0;
+}
 @-webkit-keyframes pulse {
     0% {
       -webkit-box-shadow: 0 0 0 0 rgb(255, 203, 54);
