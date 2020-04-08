@@ -4,7 +4,7 @@
     color: #ffffff;
 }
 .section-tittle h2 {
-    margin-bottom: 45px;
+    margin-bottom: 0;
 }
 .main-header .main-menu ul li>a {
     color: white;
@@ -131,6 +131,32 @@ body {
 .footer-padding, .best-pricing.pricing-padding {
     padding-top: 40px;
     padding-bottom: 0;
+}
+.available-app-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.learn-more {
+    background: repeating-linear-gradient(45deg, white, #b5b5b5 100px);
+    color: #7451bb;
+    width: 100%;
+}
+.what-img {
+    text-align: -webkit-center;
+}
+.premium{
+    display: none
+}
+::placeholder {
+    color: rgba(0, 0, 0, 0.4392156862745098);
+    font-size: 1em;
+  }
+.taxisharing {
+    font-size: 3rem!important;
+    color: wheat!important;
+    position: relative;
+    left: 30px;
+    font-weight: 900;
 }
 @-webkit-keyframes pulse {
     0% {
