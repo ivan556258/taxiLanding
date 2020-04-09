@@ -206,6 +206,13 @@ feature.wow.fadeInUp {
     text-shadow: 0 0 20px black;
     font-size: 1.2rem;
 }
+.height-center {
+    height: 420px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @-webkit-keyframes pulse {
     0% {
       -webkit-box-shadow: 0 0 0 0 rgb(255, 203, 54);
